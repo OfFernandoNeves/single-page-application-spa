@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto&display=swap');
+
 *
 {
     box-sizing: border-box;
-}
-.boxarea{
     background: black;
+    margin: 0;
+    padding: 0;
 }
 body 
 {
@@ -11,44 +13,72 @@ body
     text-align: center;
     font-size: 20px;
     color: rgb(163, 163, 163);
+    padding: 50px 
 }
-hr {
-    margin-top: 30px;
-    border: 0;
-    border-top: 1px solid rgb(150, 150, 150);
+li, a {
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: left;
+    color: rgba(33, 201, 243, 0.521);
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+
+}
+.mov_links {
+    list-style: none;
+}
+.mov_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.mov_links li a {
+    transition: all 0.3s ease 0;
+}
+.mov_links li a:hover {
+    color: rgb(121, 23, 23) ;
 }
 
-.box-area {
-    background: #000;
-
-}
 h1 
 {
-    font-size: 32px;
+    font-size: 40px;
     color: white;
     background: rgb(121, 23, 23);
     border: 5px solid #000;
-    padding: 25px px 32px;
-    max-width: 700px;
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 5px
+    padding: 50px 30px
     ;
-}
-.subtitulo {
-    color: gray;
-    font-size: 20;
 }
 h2 
 {
-    color: blue
+    color: rgb(70, 121, 141);
+    line-height: 5;
+}
+h3 {
+    padding-left: 10px;
+    text-align: left;
+    font-size: 20px;
+    color: rgba(33, 201, 243, 0.521);
+}
+.ver-tambem {
+    text-align: left;
+    padding-left: 10px;
+    color: rgba(33, 201, 243, 0.521);
+}
+
+h4
+{
+    line-height: 2;
+    font-size: 14px;
 }
 p {
-    line-height: 1.5;
-}
-.leftSide
-{
-    display: flex;
+    line-height: 2;
+    text-align: justify;
+    text-indent: 40px;
 }
 img
 {
